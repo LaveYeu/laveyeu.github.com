@@ -1504,18 +1504,18 @@ header a.logo img {
 ====================================== */
 
 #map{
-    overflow: hidden !important;
+    overflow: auto !important;
 }
 
 .mapouter {
-    position: relative;
-    text-align: right;
+    position: sticky;
+    text-align: center;
     height: 100%;
     width: 100%;
 }
 
 .full-map{
-    height: 450px;
+    height: 420px;
     width: 100%;
     overflow: hidden;
 }
@@ -1526,7 +1526,7 @@ header a.logo img {
 }
 
 .bg-img-map{
-    background: url(../image/map.jpg);
+    background: url(../picture/HEADPIC/slider-3.png);
 }
 
 /* ===================================
