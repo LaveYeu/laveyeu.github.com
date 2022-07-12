@@ -1516,7 +1516,7 @@ header a.logo img {
 }
 
 .full-map{
-    height: 420px;
+    height: 300px;
     width: 100%;
     overflow: hidden;
 }
@@ -1527,7 +1527,7 @@ header a.logo img {
 }
 
 .bg-img-map{
-    background: url(../image/map.jpg);
+    background: url(../background/Navymoon.png)  no-repeat center  center;
 }
 
 /* ===================================
