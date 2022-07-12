@@ -3,7 +3,7 @@
 <head>
     <!-- 源标签 -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="description" content="My First Edition">
     <!-- 搜索关键词 -->
     <meta name="keywords" content="blog,creative, modern, clean, bootstrap responsive, html5, css3, portfolio, agency, multipurpose, start-up, studio, designer">
@@ -50,10 +50,10 @@
                     <!--中文-->
                     <a class="nav-link scroll line" href="#slider-section">主 页</a>
                     <a class="nav-link scroll line" href="#about">关于网站</a>
-                    <a class="nav-link scroll line" href="#skills">我的能力</a>
-                    <a class="nav-link scroll line" href="#pricing">知识硬盘</a>
-                    <!--<a class="nav-link scroll line" href="#blog">博客</a>-->
-                    <a href="" class="btn btn-large btn-rounded btn-pink nav-button">点此进入我的blog</a>
+                    <a class="nav-link scroll line" href="#CV">我的能力</a>
+                    <a class="nav-link scroll line" href="#knowledge">知识硬盘</a>
+                    <a class="nav-link scroll line" href="#blog">博客</a>
+                    <!--<a href="" class="btn btn-large btn-rounded btn-pink nav-button">点此进入我的blog</a>-->
                 </div>
             </div>
         </div>
@@ -93,16 +93,13 @@
                         <a class="nav-link scroll" href="#about">关于网站</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#skills">我的能力</a>
+                        <a class="nav-link scroll" href="#CV">我的能力</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#pricing">知识硬盘</a>
+                        <a class="nav-link scroll" href="#knowledge">知识硬盘</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#slider-section">我的博客</a>
-                    </li>
-                    <li class="get-started-btn">
-                        <a href="" class="btn btn-medium btn-rounded btn-pink d-lg-none" data-animation-duration="500" data-fancybox="" data-src="#animatedModal">点此开始浏览</a>
+                        <a href="#blog"  class="nav-link scroll">我的博客</a>
                     </li>
                 </ul>
             </nav>
@@ -120,67 +117,6 @@
     <a id="close_side_menu" href="javascript:void(0);"></a>
     <!-- 侧栏编写结束 -->
 
-    <!--开始模式弹出-->
-    <div class="quote-content hidden animated-modal" id="animatedModal">
-        <!--标题-->
-        <div class="pb-md-5 p-0 text-center">
-            <span class="text-pink font-weight-200 font-20">We are MegaOne Company</span>
-            <h2 class="main-font font-weight-600 text-white mt-2">Lets start your <span class="text-pink js-rotating">project, website</span></h2>
-        </div>
-        <!--联系表格-->
-        <form class="contact-form" id="modal-contact-form-data">
-            <div class="row">
-                <!--结果-->
-                <div class="col-12" id="quote_result"></div>
-
-                <!--左栏-->
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input class="form-control" id="quote_name" name="quoteName" placeholder="Name" required="" type="text">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_contact" name="userPhone" placeholder="Contact #" required="" type="text">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_type" name="projectType" placeholder="Project type" required="" type="text">
-                    </div>
-                </div>
-
-                <!--右栏-->
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input class="form-control" id="quote_email" name="userEmail" placeholder="Email" required="" type="email">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_address" name="userAddress" placeholder="City / Country" required="" type="text">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" id="quote_budget" name="quoteBudget" placeholder="Budget" required="" type="text">
-                    </div>
-                </div>
-
-                <!--全栏-->
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <textarea class="form-control" id="userMessage" name="userMessage" placeholder="Please explain your project in detail."></textarea>
-                    </div>
-                </div>
-
-                <!--按钮-->
-                <div class="col-md-12">
-                    <div class="form-check">
-                        <label class="checkbox-lable font-weight-200 font-16">Contact by phone is preferred
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-                    </div>
-                    <a href="javascript:void(0)" class="btn btn-medium btn-rounded btn-pink modal_contact_btn" id="quote_submit_btn">Submit Now</a>
-                </div>
-            </div>
-        </form>
-    </div>
-</header>
-<!-- END HEADER -->
 
 <!-- 启动主滑块 -->
 <div id="slider-section" class="slider-section">
@@ -278,8 +214,6 @@
     <ul class="social-icons social-icons-simple revicon white d-none d-md-block d-lg-block">
         <!--TODO:主页右侧联系方式图标-->
         <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-facebook-f"></i></a> </li>
-        <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-douyin"></i> </a> </li>
-        <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-bilibili"></i> </a> </li>
         <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-linkedin-in"></i> </a> </li>
         <li class="d-table"><a href="javascript:void(0)" class="social-icon"><i class="fab fa-instagram"></i> </a> </li>
     </ul>
@@ -344,110 +278,135 @@
 </section>
 <!-- END ABOUT US -->
 
-<!-- START TEAM STATS -->
-<section id="skills" class="half-section p-0 stats-bg">
+<!-- START CV -->
+<section id="CV" class="half-section p-0 blog blog-bg">
     <h2 class="d-none">heading</h2>
     <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center blog-bg">
             <div class="col-lg-6 col-md-12 p-0 order-1 order-md-2">
                 <div class="owl-carousel owl-theme owl-split">
                     <!-- Team-1 -->
                     <div class="item">
                         <div class="hover-effect">
-                            <img alt="blog" src="static/picture/skills001.png" class="team-img" />
+                            <img alt="blog" src="static/picture/blog-img1.jpg" class="team-img">
                         </div>
                     </div>
                     <!-- Team-2 -->
                     <div class="item">
                         <div class="hover-effect">
-                            <img alt="blog" src="static/picture/skills001.png" class="team-img"/>
+                            <img alt="blog" src="static/picture/blog-img2.jpg" class="team-img">
                         </div>
                     </div>
                     <!-- Team-3 -->
                     <div class="item">
                         <div class="hover-effect">
-                            <img alt="blog" src="static/picture/skills002.png" class="team-img"/>
+                            <img alt="blog" src="static/picture/blog-img3.jpg" class="team-img">
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-6 col-md-12">
-                <div class="skill-box">
-                    <div class="main-title mb-5 text-center text-lg-left main-title wow fadeIn" data-wow-delay="300ms">
-                        <p class="font-weight-200 text-pink font-20">在此页面查看我的技能概述</p>
-                        <h2 class="margin-top main-font font-40 font-weight-normal text-white">除过这些主要的技能<span class="d-block mt-1">我还有其他较零碎的技能.</span></h2>
+                <div class="align-items-center pc-0 px-md-5 skill-box">
+                    <div class="main-title mb-5 text-center text-lg-left wow fadeIn" data-wow-delay="300ms">
+                        <p class="text-pink font-weight-200 font-20">LaveYeu</p>
+                        <h1 class="main-font font-weight-600 text-white margin-top">我的个人简历</h1>
+                        <p class="font-15 alt-font font-weight-normal text-grey margin-top">我的个人简历将以HTML的方式给出,当然也会在此网页存储PDF版本.</p>
+                        <a href="cv.html" class="mt-3 btn btn-medium btn-rounded btn-pink">打开简历</a>
                     </div>
-                    <ul class="text-left">
-                        <!-- First Bar -->
-                        <li class="custom-progress text-white">
-                            <h6 class="font-16 mb-0 text-capitalize">C语言编码<span class="float-right"><b class="numscroller">65</b>%</span></h6>
-
-                            <div class="progress">
-                                <div class="progress-bar bg-pink" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </li>
-                        <!-- Second Bar -->
-                        <li class="custom-progress text-white">
-                            <h6 class="font-16 mb-0 text-capitalize">Python编写<span class="float-right"><b class="numscroller">68</b>%</span></h6>
-
-                            <div class="progress">
-                                <div class="progress-bar bg-pink" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </li>
-                        <!-- Third Bar -->
-                        <li class="custom-progress text-white">
-                            <h6 class="font-16 mb-0 text-capitalize">Matlab/Spss数据处理 <span class="float-right"><b class="numscroller">25</b>%</span></h6>
-
-                            <div class="progress">
-                                <div class="progress-bar bg-pink" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </li>
-                        <!-- Fourth Bar -->
-                        <li class="custom-progress text-white">
-                            <h6 class="font-16 mb-0">LaTex论文写作<span class="float-right"><b class="numscroller">5</b>%</span></h6>
-
-                            <div class="progress">
-                                <div class="progress-bar bg-pink" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </li>
-                        <!-- Fifth Bar-->
-                        <li class="custom-progress mb-0 text-white">
-                            <h6 class="font-16 mb-0 text-capitalize">Linux<span class="float-right"><b class="numscroller">15</b>%</span></h6>
-
-                            <div class="progress">
-                                <div class="progress-bar bg-pink" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- END TEAM STATS -->
+<!-- END CV -->
 
-<!-- START PORTFOLIO -->
-<section id="portfolio" class="padding portfolio">
+<!-- START PRICE -->
+<section id="knowledge" class="pricing">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-delay="100ms">
+            <div class="col-12 text-center">
+                <p class="text-pink font-weight-200 font-20">LaveYeu's Studio</p>
+                <h1 class="main-font font-weight-600 text-white">知识硬盘<br>请选择需要进入的硬盘位</h1>
+                <p class="margin-top font-16 alt-font font-weight-normal text-grey">这三个硬盘位置将会分别存储不同类型的资源, <span class="d-block"> 请大家谨慎选择.</span></p>
+            </div>
+        </div>
+        <div class="row padding-top">
+            <!-- Drive-1 -->
+            <div class="col-lg-4 col-md-12 col-sm-12 price-pink wow fadeInLeft" data-wow-delay="300ms">
+                <div class="pricing-item">
+                    <h3 class="pb-3 main-font font-24 text-white">编程Code</h3>
+                    <div class="pricing-price d-flex"><sup class="price-dollar text-white">>_</sup> <span class="pricing-currency text-white">2T
+                            <span class="d-block alt-font font-weight-200 font-10 text-center text-green">Studio</span></span>
+                        <p class="pricing-para text-grey ml-3">这个硬盘位将会存储我在编程过程中出现的问题及解决办法</p>
+                    </div>
+                    <ul class="pricing-list mb-0">
+                        <li><i class="fa fa-check" aria-hidden="true"></i> C Language.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Python.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Html/Css.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Matlab.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Else.</li>
+                    </ul>
+                    <a href="./html/code.html" class="btn btn-medium rounded-pill w-100 portfolio-btn-pink">Enter</a>
+                </div>
+            </div>
+            <!-- Plan-2 -->
+            <div class="col-lg-4 col-md-12 col-sm-12 price-pink wow fadeInUp" data-wow-delay="500ms">
+                <div class="pricing-item active selected">
+                    <h3 class="pb-3 main-font font-24 text-white">Linux/深度学习/模拟仿真</h3>
+                    <div class="pricing-price d-flex"><sup class="price-dollar text-white">>_</sup> <span class="pricing-currency text-white">4T
+                            <span class="d-block alt-font font-weight-200 font-10 text-center">Studio</span></span>
+                        <p class="pricing-para text-grey ml-3">这个硬盘位将会存储我在进行Linux以及深度学习,模拟仿真软件中等过程中出现的问题及解决办法</p>
+                    </div>
+                    <ul class="pricing-list mb-0">
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Ubantu.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Matlab.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Ros.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Nvidia isaac_sim.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Carsim.</li>
+                    </ul>
+                    <a href="./html/LinNviDL.html" class="btn btn-medium rounded-pill w-100 portfolio-btn-pink">Enter</a>
+                </div>
+            </div>
+            <!-- Plan-3 -->
+            <div class="col-lg-4 col-md-12 col-sm-12 price-pink wow fadeInRight" data-wow-delay="300ms">
+                <div class="pricing-item">
+                    <h3 class="pb-3 main-font font-24 text-white">其他Else</h3>
+                    <div class="pricing-price d-flex"><sup class="price-dollar text-white">>_</sup> <span class="pricing-currency text-white">2T
+                            <span class="d-block alt-font font-weight-200 font-10 text-center">Studio</span></span>
+                        <p class="pricing-para text-grey ml-3">这个硬盘内部包含的东西就比较杂乱,主要是一些与学习不太相近的thing</p>
+                    </div>
+                    <ul class="pricing-list mb-0">
+                        <li><i class="fa fa-check" aria-hidden="true"></i> LaTex.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Microsoft.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Coursera.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Soildworks.</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> AutoCad.</li>
+                    </ul>
+                    <a href="./html/Else.html" class="btn btn-medium rounded-pill w-100 portfolio-btn-pink">Enter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END PRICE -->
+
+<!-- START Blog -->
+<section id="blog" class="padding portfolio">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="title text-center pb-5 wow fadeInUp" data-wow-delay="100ms">
-                    <p class="text-pink font-weight-200 font-20">Basic Info about work</p>
-                    <h1 class="main-font font-weight-600 text-white">Creative Design Work</h1>
-                    <p class="margin-top font-16 alt-font font-weight-normal text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in velit dolor.<span class="d-block"> Vivamus gravida, neque nec interdum cursus, erat ligula.</span></p>
+                    <p class="text-pink font-weight-200 font-20">LaveYeu's Studio</p>
+                    <h1 class="main-font font-weight-600 text-white">我的博客</h1>
+                    <p class="margin-top font-16 alt-font font-weight-normal text-grey"> 我的Blog将会以个人生活为主节奏,.<span class="d-block"> 请大家期待.</span></p>
                 </div>
                 <div class="pointer nav nav-pills mb-4 mb-md-4 d-flex justify-content-center filtering">
-                    <span data-filter="*" class="nav-link active">All</span>
-                    <span class="nav-link" data-filter=".Agencies">Agencies</span>
-                    <span class="nav-link" data-filter=".Business">Clinical</span>
-                    <span class="nav-link" data-filter=".Personal">Personal</span>
-                    <span class="nav-link" data-filter=".Medical">Medical</span>
+                    <span data-filter="*" class="nav-link active">推荐</span>
+                    <span class="nav-link" data-filter=".Agencies">类目一</span>
+                    <span class="nav-link" data-filter=".Business">类目二</span>
+                    <span class="nav-link" data-filter=".Personal">类目三</span>
+                    <span class="nav-link" data-filter=".Medical">类目四</span>
                 </div>
 
                 <ul class="da-thumbs gallery">
@@ -536,166 +495,16 @@
                     </li>
                 </ul>
                 <div class="text-center pt-5">
-                    <a href="standalone.html" class="btn btn-medium btn-rounded btn-pink">View More Portfolio</a>
+                    <a href="./html/blog.html" class="btn btn-medium btn-rounded btn-pink">点此进入我的blog</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- START CLIENTS -->
-    <div class="clients">
-        <h2 class="d-none">hidden</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!--Client Slider-->
-                    <div class="owl-carousel partners-slider">
-                        <!--Item-->
-                        <div class="logo-item"><img alt="client-logo" src="static/picture/skills001.png"></div>
-                        <!--Item-->
-                        <div class="logo-item"><img alt="client-logo" src="static/picture/skills002.png"></div>
-                        <!--Item-->
-                        <div class="logo-item"><img alt="client-logo" src="static/picture/skills001.png"></div>
-                        <!--Item-->
-                        <div class="logo-item"><img alt="client-logo" src="static/picture/skills002.png"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END CLIENTS -->
 </section>
 <!-- END PORTFOLIO -->
 
-<!-- START PARALLAX -->
-<section class="parallax-img parallax">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6 offset-lg-3 my-3">
-                <!-- Testimonial Slider -->
-                <div id="testimonial-carousal" class="owl-carousel owl-theme testimonial-owl text-center wow fadeIn" data-wow-delay="300ms">
-                    <!-- Item-1 -->
-                    <div class="item">
-                        <div class="icon-quotes mb-4">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                        <div class="description">
-                            <p class="text-white paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo, sem magna laoreet tellus, eu euismod dolor enim et mi. In at tempor purus. </p>
-                        </div>
-                        <div class="testimonial-img mt-4">
-                            <img src="static/picture/testimonial-1.png" alt="student img">
-                        </div>
-                        <div class="testimonial-tittle mt-3 mb-3">
-                            <h3 class="mb-0 text-white alt-font font-weight-normal font-24">Sara Jones</h3>
-                        </div>
-                    </div>
 
-                    <!-- Item-2-->
-                    <div class="item">
-                        <div class="icon-quotes mb-4">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                        <div class="description">
-                            <p class="text-white paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo, sem magna laoreet tellus, eu euismod dolor enim et mi. In at tempor purus. </p>
-                        </div>
-                        <div class="testimonial-img mt-4">
-                            <img src="static/picture/testimonial-2.png" alt="student img">
-                        </div>
-                        <div class="testimonial-tittle mt-3 mb-3">
-                            <h3 class="mb-0 text-white alt-font font-weight-normal font-24">Trixly Wanders</h3>
-                        </div>
-                    </div>
 
-                    <!-- Item-3 -->
-                    <div class="item">
-                        <div class="icon-quotes mb-4">
-                            <i class="fas fa-quote-right"></i>
-                        </div>
-                        <div class="description">
-                            <p class="text-white paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo, sem magna laoreet tellus, eu euismod dolor enim et mi. In at tempor purus. </p>
-                        </div>
-                        <div class="testimonial-img mt-4">
-                            <img src="static/picture/post1.png" alt="student img">
-                        </div>
-                        <div class="testimonial-tittle mt-3 mb-3">
-                            <h3 class="mb-0 text-white alt-font font-weight-normal font-24">Steve Austin</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- END PARALLAX -->
-
-<!-- START PRICE -->
-<section id="pricing" class="pricing">
-    <div class="container">
-        <div class="row wow fadeInUp" data-wow-delay="100ms">
-            <div class="col-12 text-center">
-                <p class="text-pink font-weight-200 font-20">Ready for an Investment</p>
-                <h1 class="main-font font-weight-600 text-white">Choose a Finance Plan</h1>
-                <p class="margin-top font-16 alt-font font-weight-normal text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in velit dolor. Vivamus gravida, <span class="d-block"> neque nec interdum cursus, erat ligula.</span></p>
-            </div>
-        </div>
-        <div class="row padding-top">
-            <!-- Plan-1 -->
-            <div class="col-lg-4 col-md-12 col-sm-12 price-pink wow fadeInLeft" data-wow-delay="300ms">
-                <div class="pricing-item">
-                    <h3 class="pb-3 main-font font-24 text-white">Basic</h3>
-                    <div class="pricing-price d-flex"><sup class="price-dollar text-white">$</sup> <span class="pricing-currency text-white">29
-                            <span class="d-block alt-font font-weight-200 font-10 text-center text-green">Month</span></span>
-                        <p class="pricing-para text-grey ml-3">It has survived not only five centuries, but also the leap into electronic</p>
-                    </div>
-                    <ul class="pricing-list mb-0">
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum.</li>
-                    </ul>
-                    <a href="javascript:void(0)" class="btn btn-medium rounded-pill w-100 portfolio-btn-pink">Choose Plan</a>
-                </div>
-            </div>
-            <!-- Plan-2 -->
-            <div class="col-lg-4 col-md-12 col-sm-12 price-pink wow fadeInUp" data-wow-delay="500ms">
-                <div class="pricing-item active selected">
-                    <h3 class="pb-3 main-font font-24 text-white">Popular</h3>
-                    <div class="pricing-price d-flex"><sup class="price-dollar text-white">$</sup> <span class="pricing-currency text-white">69
-                            <span class="d-block alt-font font-weight-200 font-10 text-center">Month</span></span>
-                        <p class="pricing-para text-grey ml-3">It has survived not only five centuries, but also the leap into electronic</p>
-                    </div>
-                    <ul class="pricing-list mb-0">
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum.</li>
-                    </ul>
-                    <a href="javascript:void(0)" class="btn btn-medium rounded-pill w-100 portfolio-btn-pink">Choose Plan</a>
-                </div>
-            </div>
-            <!-- Plan-3 -->
-            <div class="col-lg-4 col-md-12 col-sm-12 price-pink wow fadeInRight" data-wow-delay="300ms">
-                <div class="pricing-item">
-                    <h3 class="pb-3 main-font font-24 text-white">Advance</h3>
-                    <div class="pricing-price d-flex"><sup class="price-dollar text-white">$</sup> <span class="pricing-currency text-white">99
-                            <span class="d-block alt-font font-weight-200 font-10 text-center">Month</span></span>
-                        <p class="pricing-para text-grey ml-3">It has survived not only five centuries, but also the leap into electronic</p>
-                    </div>
-                    <ul class="pricing-list mb-0">
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum dolor sit amet.</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum.</li>
-                    </ul>
-                    <a href="javascript:void(0)" class="btn btn-medium rounded-pill w-100 portfolio-btn-pink">Choose Plan</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- END PRICE -->
 
 <!-- START FOOTER -->
 <footer class="footer">

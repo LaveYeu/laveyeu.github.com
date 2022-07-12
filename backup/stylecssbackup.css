@@ -1,0 +1,129 @@
+/* ===================================
+   Pricing Plans
+====================================== */
+
+.pricing {
+    background-image: url("../image/pricing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing-item {
+    position: relative;
+    padding: 2.5rem 1rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /*-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .12);*/
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, .12);*/
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-border-radius: 0;
+    text-align: left;
+    overflow: hidden;
+    background: transparent;
+    cursor: default;
+    border-radius: 3px;
+}
+
+.pricing-item .pricing-price {
+    padding: 25px 0 10px 0;
+    border-top: 1.5px solid rgba(139, 144, 157, 0.30);
+    border-bottom: 1.5px solid rgba(139, 144, 157, 0.30);
+}
+
+.pricing-item.active .pricing-price {
+    border-top: 1.5px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.18);
+}
+
+.pricing-item .pricing-currency {
+    font-size: 48px;
+    font-weight: normal;
+    transition: .3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pricing-currency span {
+    margin-top: 6px;
+}
+
+.pricing-para {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.price-dollar {
+    align-items: center;
+    display: flex;
+    margin-right: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pricing-list {
+    font-size: 14px;
+    padding: 25px 0;
+    display: inline-block;
+}
+
+.pricing-list li {
+    margin: 16px 0 16px 0;
+    font-size: 15px;
+    font-weight: normal;
+    position: relative;
+    cursor: pointer;
+    color: #535353;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pricing-list li i {
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+.fa-check {
+    color: #62be10;
+}
+
+.pricing-item:hover .pricing-currency, .pricing-item.active .pricing-currency {
+    color: #c32865!important;
+    transition: .3s ease;
+}
+
+.pricing-item:hover sup, .pricing-item:hover span, .pricing-item:hover p, .pricing-item:hover li {
+    color: #ffffff!important;
+}
+
+.pricing-item.active sup, .pricing-item.active span, .pricing-item.active p, .pricing-item.active li {
+    color: #ffffff!important;
+}
+
+.price-pink .pricing-item:hover {
+    background: #202020;
+    border-color: #202020;
+}
+
+.pricing-item.active {
+    background: #202020;
+    border-color: #202020;
+}
+
+/* Portfolio Green-btn*/
+.portfolio-btn-pink:hover {border-color: #c32865;background-color: #c32865;color:#ffffff!important;}
+.portfolio-btn-pink {
+    border: solid 1px #ffffff;
+    color: #FFFFFF;
+    background-color: transparent;
+    font-size: 14px;
+    border-radius: 0.5em;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: .8s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
