@@ -663,7 +663,7 @@ header a.logo img {
 }
 
 .push-slider-up{
-    margin-top: 100vh;
+    margin-top: 0vh;
 }
 
 .navigation-toggle span{
